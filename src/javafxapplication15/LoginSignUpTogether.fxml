@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="459.0" prefWidth="693.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.LoginSignUpTogetherController">
+  <children>
+    <BorderPane fx:id="borderPane" layoutX="0.0" layoutY="0.0" prefHeight="459.0000999999975" prefWidth="693.0">
+      <bottom>
+        <HBox alignment="CENTER" prefHeight="32.0" prefWidth="693.0">
+          <children>
+            <Label text="Developed &amp; Maintained By : Tasmim_Adib" />
+          </children>
+        </HBox>
+      </bottom>
+      <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      </center>
+      <left>
+        <AnchorPane prefHeight="373.0" prefWidth="173.0">
+          <children>
+            <Button layoutX="70.0" layoutY="137.0" mnemonicParsing="false" onAction="#loginButton" text="Login">
+              <font>
+                <Font name="System Bold" size="13.0" fx:id="x1" />
+              </font>
+            </Button>
+            <Label fx:id="label" layoutX="93.0" layoutY="312.0" text="" textFill="RED" />
+            <Button font="$x1" layoutX="64.0" layoutY="220.0" mnemonicParsing="false" onAction="#signUpButton" text="Signup" />
+            <Button font="$x1" layoutX="72.0" layoutY="265.0" mnemonicParsing="false" onAction="#backAction" text="Back" />
+            <Label layoutX="43.0" layoutY="181.0" text="----------or------------" />
+          </children>
+        </AnchorPane>
+      </left>
+      <right>
+        <AnchorPane prefHeight="373.0" prefWidth="117.0" />
+      </right>
+    </BorderPane>
+  </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="460.00010681152344" prefWidth="696.0000999999975" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.OtherProfileController">
+  <children>
+    <BorderPane id="mainContent" fx:id="border" layoutX="0.0" layoutY="0.0" prefHeight="461.0" prefWidth="696.0001220703125">
+      <bottom>
+        <HBox alignment="CENTER" prefHeight="34.0" prefWidth="673.0">
+          <children>
+            <Label text="Developed &amp; Maintained By : Tasmim_Adib" />
+          </children>
+        </HBox>
+      </bottom>
+      <center>
+        <AnchorPane prefHeight="378.0" prefWidth="469.0" />
+      </center>
+      <left>
+        <AnchorPane blendMode="DARKEN" prefHeight="200.0" prefWidth="200.0">
+          <children>
+            <Button layoutX="13.0" layoutY="135.0" mnemonicParsing="false" onAction="#friendProfile" text="Your Friend's Profile">
+              <font>
+                <Font name="System Bold" size="13.0" fx:id="x1" />
+              </font>
+            </Button>
+            <Button font="$x1" layoutX="15.0" layoutY="182.0" mnemonicParsing="false" onAction="#friendResult" text="Your Friend's Result" />
+            <Button font="$x1" layoutX="71.0" layoutY="231.0" mnemonicParsing="false" onAction="#backAction" text="Back" />
+          </children>
+        </AnchorPane>
+      </left>
+      <right>
+        <VBox prefHeight="378.0" prefWidth="58.0" />
+      </right>
+      <top>
+        <HBox alignment="CENTER" prefHeight="49.0" prefWidth="673.0">
+          <children>
+            <Label fx:id="label" text="" textFill="#005a66">
+              <font>
+                <Font name="System Bold Italic" size="13.0" />
+              </font>
+            </Label>
+          </children>
+        </HBox>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>

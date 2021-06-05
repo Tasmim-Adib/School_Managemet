@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="518.0" prefWidth="715.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.FourInOneController">
+  <children>
+    <BorderPane fx:id="mainContent" layoutX="0.0" layoutY="0.0" prefHeight="518.0" prefWidth="715.0">
+      <bottom>
+        <AnchorPane prefHeight="47.0" prefWidth="715.0">
+          <children>
+            <Label layoutX="215.0" layoutY="17.0" text="Developed &amp; Maintainde By : Tasmim_ Adib" />
+          </children>
+        </AnchorPane>
+      </bottom>
+      <center>
+        <AnchorPane id="mainContent" prefHeight="393.0" prefWidth="408.0">
+          <children>
+            <Label fx:id="label" layoutX="180.0" layoutY="191.0" text="" textFill="#990000" />
+          </children>
+        </AnchorPane>
+      </center>
+      <left>
+        <AnchorPane blendMode="DIFFERENCE" cache="false" cacheHint="DEFAULT" prefHeight="200.0" prefWidth="200.0">
+          <children>
+            <Button layoutX="43.0" layoutY="27.0" mnemonicParsing="false" onAction="#profileAction" text="Show Profile" textFill="#1000cc">
+              <font>
+                <Font size="15.0" fx:id="x1" />
+              </font>
+            </Button>
+            <Button font="$x1" layoutX="42.0" layoutY="83.0" mnemonicParsing="false" onAction="#resultAction" text="Show Result">
+              <textFill>
+                <Color blue="0.600" green="0.000" red="0.048" fx:id="x3" />
+              </textFill>
+            </Button>
+            <Button font="$x1" layoutX="34.0" layoutY="143.0" mnemonicParsing="false" onAction="#otherProfileAction" text="Other's Profile">
+              <textFill>
+                <Color blue="0.600" green="0.096" red="0.000" fx:id="x2" />
+              </textFill>
+            </Button>
+            <Button font="$x1" layoutX="35.0" layoutY="199.0" mnemonicParsing="false" onAction="#chatroomAction" text="My Chat Room" textFill="$x3" />
+            <Button font="$x1" layoutX="60.0" layoutY="260.0" mnemonicParsing="false" onAction="#logoutAction" text="Log Out" textFill="$x2" />
+            <Button font="$x1" layoutX="76.0" layoutY="317.0" mnemonicParsing="false" onAction="#exitAction" text="Exit" textFill="$x2" />
+          </children>
+        </AnchorPane>
+      </left>
+      <top>
+        <HBox alignment="CENTER" disable="false" focusTraversable="false" prefHeight="58.0" prefWidth="715.0" BorderPane.margin="$x4">
+          <children>
+            <Label text="WELCOME !! You are Successfully Logged In !" textFill="#00332d">
+              <font>
+                <Font name="System Bold" size="15.0" />
+              </font>
+            </Label>
+          </children>
+          <padding>
+            <Insets fx:id="x4" />
+          </padding>
+        </HBox>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>

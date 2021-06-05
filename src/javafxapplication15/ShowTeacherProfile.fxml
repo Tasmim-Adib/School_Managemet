@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.ShowTeacherProfileController">
+  <children>
+    <Label layoutX="207.0" layoutY="150.0" text="UserName :" />
+    <Label fx:id="username" layoutX="300.0" layoutY="150.0" text="Label" />
+    <Label layoutX="228.0" layoutY="176.0" text="User Id :" />
+    <Label fx:id="id" layoutX="300.0" layoutY="176.0" text="Label" />
+    <Label layoutX="216.0" layoutY="200.0" text="Category :" />
+    <Label fx:id="category" layoutX="300.0" layoutY="200.0" text="Label" />
+    <Label fx:id="session" layoutX="195.0" layoutY="227.0" text="Department :" />
+    <Label fx:id="dept" layoutX="300.0" layoutY="227.0" text="Label" />
+    <Label layoutX="222.0" layoutY="253.0" text="Address :" />
+    <Label fx:id="address" layoutX="300.0" layoutY="253.0" text="Label" />
+    <Label layoutX="223.0" layoutY="286.0" text="Contact :" />
+    <Label fx:id="contact" layoutX="300.0" layoutY="286.0" text="Label" />
+    <Label layoutX="193.0" layoutY="314.0" text="Blood Group :" />
+    <Label fx:id="bg" layoutX="300.0" layoutY="314.0" text="Label" />
+    <Label layoutX="239.0" layoutY="341.0" text="Email :" />
+    <Label fx:id="email" layoutX="300.0" layoutY="341.0" text="Label" />
+  </children>
+</AnchorPane>

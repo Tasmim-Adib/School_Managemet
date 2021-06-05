@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.ProfileController">
+  <children>
+    <Button fx:id="profileButton" layoutX="249.0" layoutY="63.0" mnemonicParsing="false" onAction="#profileButtonAction" text="Show Profile" />
+    <Button fx:id="resultButton" layoutX="250.0" layoutY="106.0" mnemonicParsing="false" onAction="#resultButtonAction" text="Show Result" />
+    <Button fx:id="otherProfileButton" layoutX="224.0" layoutY="154.0" mnemonicParsing="false" onAction="#otherProfileAction" text="Show Other's Profile" />
+    <Button fx:id="otherResultButton" layoutX="224.0" layoutY="200.0" mnemonicParsing="false" onAction="#otherResultAction" text="Show Other's Result" />
+    <Button fx:id="logout" layoutX="263.0" layoutY="239.0" mnemonicParsing="false" onAction="#logoutAction" text="Log Out" />
+    <Button fx:id="exitButton" layoutX="277.0" layoutY="285.0" mnemonicParsing="false" onAction="#exitButtonAction" text="Exit" />
+  </children>
+</AnchorPane>

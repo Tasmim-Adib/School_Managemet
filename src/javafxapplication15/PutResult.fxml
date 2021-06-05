@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.PutResultController">
+  <children>
+    <AnchorPane layoutX="62.0" layoutY="39.0" prefHeight="272.0" prefWidth="471.0">
+      <children>
+        <TextField fx:id="idField" layoutX="196.0" layoutY="34.0" prefWidth="200.0" promptText="Give Student ID" />
+        <Label layoutX="100.0" layoutY="37.0" text="Student ID :" />
+        <Label layoutX="83.0" layoutY="76.0" text="Subject Code :" />
+        <Label layoutX="135.0" layoutY="113.0" text="Mark :" />
+        <TextField fx:id="subjectCodeField" layoutX="196.0" layoutY="73.0" prefWidth="200.0" />
+        <TextField fx:id="markField" layoutX="196.0" layoutY="110.0" prefWidth="200.0" />
+        <Button layoutX="181.0" layoutY="177.0" mnemonicParsing="false" onAction="#moreAction" text="More" />
+        <Button layoutX="282.0" layoutY="177.0" mnemonicParsing="false" onAction="#doneAction" text="Done" />
+        <Label fx:id="label" layoutX="188.0" layoutY="217.0" text="" textFill="#009962" />
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>

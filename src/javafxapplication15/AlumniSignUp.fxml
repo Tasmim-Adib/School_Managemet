@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="439.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.AlumniSignUpController">
+  <children>
+    <Label layoutX="160.0" layoutY="67.0" text="Username :" />
+    <Label layoutX="194.0" layoutY="98.0" text="Id No :" />
+    <Label layoutX="175.0" layoutY="167.0" text="Address :" />
+    <Label layoutX="146.0" layoutY="203.0" text="Blood Group :" />
+    <Label layoutX="176.0" layoutY="234.0" text="Contact :" />
+    <Label layoutX="192.0" layoutY="265.0" text="Email :" />
+    <Label layoutX="166.0" layoutY="329.0" text="Password :" />
+    <Label layoutX="177.0" layoutY="133.0" text="Session :" />
+    <Button fx:id="submit" layoutX="473.0" layoutY="327.0" mnemonicParsing="false" onAction="#submitAction" text="Submit" />
+    <PasswordField fx:id="passwordField" layoutX="255.0" layoutY="326.0" prefWidth="200.0" />
+    <TextField fx:id="emailField" layoutX="255.0" layoutY="262.0" prefWidth="200.0" />
+    <TextField fx:id="contactField" layoutX="255.0" layoutY="231.0" prefWidth="200.0" />
+    <TextField fx:id="bgField" layoutX="255.0" layoutY="200.0" prefWidth="200.0" />
+    <TextField fx:id="addressField" layoutX="255.0" layoutY="164.0" prefWidth="200.0" />
+    <TextField fx:id="sessionField" layoutX="255.0" layoutY="130.0" prefWidth="200.0" />
+    <TextField fx:id="idField" layoutX="255.0" layoutY="95.0" prefWidth="200.0" />
+    <TextField fx:id="usernameField" layoutX="255.0" layoutY="64.0" prefWidth="200.0" />
+    <TextField fx:id="workField" layoutX="255.0" layoutY="296.0" prefWidth="200.0" />
+    <Label layoutX="136.0" layoutY="299.0" text="Working Place :" />
+    <Label fx:id="label" layoutX="237.0" layoutY="377.0" text="" textFill="#00993d" />
+  </children>
+</AnchorPane>

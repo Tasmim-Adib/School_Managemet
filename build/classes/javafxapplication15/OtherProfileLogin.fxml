@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="260.0" prefWidth="546.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.OtherProfileLoginController">
+  <children>
+    <Button fx:id="submit" defaultButton="false" layoutX="239.0" layoutY="179.0" mnemonicParsing="false" onAction="#submitAction" text="Submit" textFill="#396600" underline="false" wrapText="false" />
+    <Label layoutX="106.0" layoutY="104.0" text="Username  :" textAlignment="LEFT" wrapText="false">
+      <textFill>
+        <Color blue="0.000" green="0.096" red="0.400" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Label layoutX="122.0" layoutY="139.0" text="Id No      :" textFill="$x1" />
+    <TextField fx:id="usernameField" layoutX="228.0" layoutY="101.0" prefWidth="200.0" />
+    <TextField fx:id="idNoField" layoutX="228.0" layoutY="136.0" prefWidth="200.0" />
+    <Label layoutX="84.0" layoutY="53.0" text="Provide information of your Desired Friend">
+      <font>
+        <Font name="System Bold" size="15.0" />
+      </font>
+    </Label>
+    <Label fx:id="label" layoutX="192.0" layoutY="209.0" text="">
+      <font>
+        <Font name="System Bold" size="13.0" />
+      </font>
+      <textFill>
+        <Color blue="0.000" green="0.000" red="0.800" fx:id="x2" />
+      </textFill>
+    </Label>
+    <Label fx:id="label" layoutX="172.0" layoutY="217.0" text="" textFill="$x2" />
+  </children>
+</AnchorPane>

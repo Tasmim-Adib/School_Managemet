@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="157.0" prefHeight="187.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.NotValidController">
+  <children>
+    <Label layoutX="160.0" layoutY="70.0" text="ID No or Password is Invalid !!">
+      <font>
+        <Font name="System Bold" size="15.0" />
+      </font>
+    </Label>
+    <Button fx:id="tryAgainButton" layoutX="246.0" layoutY="108.0" mnemonicParsing="false" onAction="#tryAgainAction" text="Try Again" />
+    <Label layoutX="254.0" layoutY="26.0" text="Warning !!" textFill="RED" />
+  </children>
+</AnchorPane>

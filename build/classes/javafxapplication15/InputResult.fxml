@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="362.1328125" prefWidth="639.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.InputResultController">
+  <children>
+    <BorderPane fx:id="updateborder" layoutX="0.0" layoutY="0.0" prefHeight="362.1328125" prefWidth="639.0">
+      <bottom>
+        <HBox alignment="CENTER" prefHeight="28.0" prefWidth="639.0">
+          <children>
+            <Label text="Developed &amp; Maintained By : Tasmim_Adib" />
+          </children>
+        </HBox>
+      </bottom>
+      <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      </center>
+      <left>
+        <AnchorPane prefHeight="289.0" prefWidth="193.0">
+          <children>
+            <Button layoutX="47.0" layoutY="79.0" mnemonicParsing="false" onAction="#updateResult" text="Update Result" />
+            <Button layoutX="63.0" layoutY="130.0" mnemonicParsing="false" onAction="#logoutAction" text="Log Out" />
+            <Label layoutX="32.0" layoutY="197.0" text="*If result is uploaded" textFill="RED" />
+            <Label layoutX="39.0" layoutY="219.0" text="Please Logged Out*" textFill="RED" />
+          </children>
+        </AnchorPane>
+      </left>
+      <right>
+        <VBox prefHeight="289.0" prefWidth="74.0" />
+      </right>
+      <top>
+        <HBox alignment="CENTER" prefHeight="46.0" prefWidth="639.0">
+          <children>
+            <Label text="WELCOME !! You Successfully Logged in as Admin">
+              <font>
+                <Font name="System Bold" size="15.0" />
+              </font>
+            </Label>
+          </children>
+        </HBox>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>

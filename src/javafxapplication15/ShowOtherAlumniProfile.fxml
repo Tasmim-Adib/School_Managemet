@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="473.0" prefWidth="657.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.ShowOtherAlumniProfileController">
+  <children>
+    <BorderPane fx:id="alumnistage" layoutX="0.0" layoutY="0.0" prefHeight="473.0" prefWidth="657.0">
+      <bottom>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="657.0">
+          <children>
+            <Label text="Developed &amp; Maintained By : Tasmim_Adib" />
+          </children>
+        </HBox>
+      </bottom>
+      <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      </center>
+      <left>
+        <VBox alignment="CENTER" prefHeight="373.0" prefWidth="146.0">
+          <children>
+            <Button mnemonicParsing="false" onAction="#buttonAction" text="Back" />
+          </children>
+        </VBox>
+      </left>
+      <right>
+        <VBox prefHeight="373.0" prefWidth="84.0" />
+      </right>
+      <top>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="657.0">
+          <children>
+            <Label text="Your Friend's Profile" />
+          </children>
+        </HBox>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>

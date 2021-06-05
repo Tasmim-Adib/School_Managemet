@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="465.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.ChatroomController">
+  <children>
+    <TextArea fx:id="textArea" layoutX="71.0" layoutY="39.0" prefHeight="303.0" prefWidth="460.0" wrapText="true" />
+    <TextField fx:id="textField" layoutX="71.0" layoutY="368.0" prefHeight="45.0" prefWidth="360.0" promptText="Write your message" />
+    <Button layoutX="465.0" layoutY="380.0" mnemonicParsing="false" onAction="#sendButton" text="Send" />
+    <Label layoutX="155.0" layoutY="431.0" text="Please type &quot;Exit&quot; to leave from the chatroom" textFill="RED" />
+    <Label id="label" fx:id="labelid" layoutX="177.0" layoutY="14.0" text="" textFill="#001899" />
+  </children>
+</AnchorPane>

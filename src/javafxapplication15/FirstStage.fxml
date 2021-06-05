@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="475.0" prefWidth="699.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication15.FirstStageController">
+  <children>
+    <BorderPane fx:id="borderCenter" layoutX="0.0" layoutY="0.0" prefHeight="475.0" prefWidth="698.9999000000025">
+      <bottom>
+        <HBox alignment="CENTER" prefHeight="49.0" prefWidth="699.0">
+          <children>
+            <Label text="Developed &amp; Maintained By : Tasmim_Adib" />
+          </children>
+        </HBox>
+      </bottom>
+      <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+          <children>
+            <Label layoutX="101.0" layoutY="153.0" text="First Choose a Category" textAlignment="JUSTIFY">
+              <font>
+                <Font name="System Bold Italic" size="13.0" />
+              </font>
+            </Label>
+          </children>
+        </AnchorPane>
+      </center>
+      <left>
+        <AnchorPane prefHeight="414.0" prefWidth="241.0">
+          <children>
+            <Button layoutX="74.0" layoutY="82.0" mnemonicParsing="false" onAction="#studentAction" text="Student">
+              <font>
+                <Font name="System Bold" size="15.0" fx:id="x1" />
+              </font>
+            </Button>
+            <Button font="$x1" layoutX="74.0" layoutY="138.0" mnemonicParsing="false" onAction="#teacherAction" text="Teacher" />
+            <Button layoutX="81.0" layoutY="193.0" mnemonicParsing="false" onAction="#alumniAction" text="Alumni">
+              <font>
+                <Font name="System Bold" size="14.0" fx:id="x2" />
+              </font>
+            </Button>
+            <Button font="$x2" layoutX="83.0" layoutY="244.0" mnemonicParsing="false" onAction="#adminAction" text="Admin" />
+            <Button font="$x2" layoutX="93.0" layoutY="294.0" mnemonicParsing="false" onAction="#exitAction" text="Exit" />
+            <Label font="$x1" layoutX="82.0" layoutY="43.0" text="Category" />
+          </children>
+        </AnchorPane>
+      </left>
+      <right>
+        <VBox prefHeight="200.0" prefWidth="100.0" />
+      </right>
+      <top>
+        <HBox alignment="CENTER" prefHeight="63.0" prefWidth="699.0">
+          <children>
+            <Label font="$x1" text="WELCOME to ABC School" />
+          </children>
+        </HBox>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>
